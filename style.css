@@ -6,9 +6,44 @@ h1{
   font-size:larger;
 }
 
+h2{
+  font-size: large;
+}
+
 .hero-img{
   background-image: url('https://images.unsplash.com/photo-1556648011-e01aca870a81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
-  min-height: 50vh;
+  min-height: 55vh;
   background-size: cover;
   background-position: center;
+}
+
+.bg-black{
+  background-color: #323232;
+}
+
+.bg-orange{
+  background-color: #C96000;
+}
+
+.bg-card{
+  background-color: #32323296;
+}
+.btn-orange{
+  background-color: #C96000;
+}
+
+.btn-yellow{
+  background-color: #DEB627;
+  transform: translateY(-3vh);
+}
+
+.square-img{
+  height: 90%;
+  width: 90%;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-img {
+    background-image: url('https://images.unsplash.com/photo-1604213410393-89f141bb96b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  }
 }
